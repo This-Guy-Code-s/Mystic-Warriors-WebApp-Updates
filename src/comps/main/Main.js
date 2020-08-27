@@ -17,7 +17,7 @@ constructor(props){
   return (
     <Container className="Main">
 
-    <div style={{}}>
+    <div style={{marginBottom:'50px'}}>
 
 	<div id="wrapper">
 		<h6 class="glitch" data-text="ALWAYS IMITATED NEVER DUPLICATED">ALWAYS IMITATED</h6>

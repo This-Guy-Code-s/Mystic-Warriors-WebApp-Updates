@@ -16,8 +16,13 @@ $item-height: 360px;
 display:flex;
 justify-content:center;
 align-items:center;
+    
+    .theBand2Holder{
+      display:flex;
+justify-content:center;
+align-items:center;
 
-  .artist {
+.artist {
   width: $thumb-side;
   height: $item-height;
       margin:0px 20px;
@@ -65,12 +70,17 @@ align-items:center;
     padding: 15px 10px;
   }
 }
+    }
+  
 .capital {
   color: darken($color-type, 50);
   text-transform: uppercase;
 }
 
-
+@media(max-width:500px){   .theBand2Holder{
+    flex-direction:column;
+    }
+  }
 @media(max-width:600px){
 
     flex-direction:column;

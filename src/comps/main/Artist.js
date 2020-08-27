@@ -1,6 +1,8 @@
 import React from 'react';
 import record from '../../util/img/16.jpg'
-
+import marco from '../../util/img/marco.jpg'
+import member1 from '../../util/img/member1.jpg'
+import member2 from '../../util/img/member2.jpg'
 
 class Artist extends React.Component {
 constructor(props){
@@ -12,6 +14,7 @@ constructor(props){
   render(){
   return (
    <div className="theBand">
+   <div className="theBand2Holder">
 
       <div class=" artist">
   <div class="artist__thumbnail">
@@ -26,8 +29,8 @@ constructor(props){
 
 <div class="artist">
   <div class="artist__thumbnail">
-    <img class="artist__blur" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/266745/fp.jpg"  alt='Mystic Warrios Member'/>
-    <img class="artist__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/266745/fp.jpg"  alt='Mystic Warrios Member'/>
+    <img class="artist__blur" src={marco}  alt='Mystic Warrios Member'/>
+    <img class="artist__image" src={marco}  alt='Mystic Warrios Member'/>
     <div class="artist__ring"></div>
     <div class="artist__ring artist__ring--outer"></div>
   </div>
@@ -36,31 +39,34 @@ constructor(props){
     <p class="capital">Marco Mallea</p>
   </div>
 </div>
+</div>
+   <div className="theBand2Holder">
 
 <div class="artist">
   <div class="artist__thumbnail">
-    <img class="artist__blur" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/266745/md.jpg"  alt='Mystic Warrios Member'/>
-    <img class="artist__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/266745/md.jpg"  alt='Mystic Warrios Member'/>
+    <img class="artist__blur" src={member1}  alt='Mystic Warrios Member'/>
+    <img class="artist__image" src={member1}  alt='Mystic Warrios Member'/>
     <div class="artist__ring"></div>
     <div class="artist__ring artist__ring--outer"></div>
   </div>
   <div class="artist__label">
-    <p>Mos Def</p>
-    <p class="capital">Artist Radio</p>
+    <p>Position</p>
+    <p class="capital">Member Name</p>
   </div>
 </div>
 
 <div class="artist">
   <div class="artist__thumbnail">
-    <img class="artist__blur" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/266745/bbng.jpg"  alt='Mystic Warrios Member'/>
-    <img class="artist__image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/266745/bbng.jpg"  alt='Mystic Warrios Member'/>
+    <img class="artist__blur" src={member2}  alt='Mystic Warrios Member'/>
+    <img class="artist__image" src={member2}  alt='Mystic Warrios Member'/>
     <div class="artist__ring"></div>
     <div class="artist__ring artist__ring--outer"></div>
   </div>
   <div class="artist__label">
-    <p>BadBadNotGood</p>
-    <p class="capital">Artist Radio</p>
+    <p>Position</p>
+    <p class="capital">Member Name</p>
   </div>
+</div>
 </div>
 </div>
     );

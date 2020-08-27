@@ -21,7 +21,7 @@
     "redux-thunk": "^2.3.0"
   },
   "proxy": "https://localhost:5000",
-  "homepage": "/",
+  "homepage": "/Mystic-Warriors-WebApp-Updates/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
