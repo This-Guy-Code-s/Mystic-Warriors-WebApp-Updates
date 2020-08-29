@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../util/styles/css/links.css'
-import store from '../../util/img/ico.jpg'
-import events from '../../util/img/events.jpg'
+import '../../util/styles/sass/links.scss'
+import {Container} from 'reactstrap'
+import Contact from '../modals/Contact'
 
 class Links extends React.Component {
 constructor(props){
@@ -20,39 +20,47 @@ showContent(){
 
   render(){
   return (
-    <div className="Links">
+    <Container>
+  
+   
+   <div className="links-content">
+      <div className="links-card">
+         
+            <div className="links-icon"><i className="material-icons md-36">facebook</i></div>
+            <p className="title">Facebook</p>
+            <p className="text">
+            <a className="material-icons" href="/#">
+exit_to_app
+</a>
+<br/>
 
-<section class="Links-cards-wrapper">
-
- 
-  <div class="Links-card-grid-space">
-    <a class="Links-card" href="/#"  style={{backgroundImage:`url(${events})`}}>
-      <div>
-        <h1>Events</h1>
-        <p>Our next up and coming Events, you can catch us in.</p>
-        <div class="date">Mystic Warriors</div>
-        <div class="tags">
-          <div class="tag">Next Events</div>
-        </div>
+            See our post and tune in live.
+            </p>
+         
       </div>
-    </a>
-  </div>
-
-
-   <div class="Links-card-grid-space">
-    <a class="Links-card" href="/#"  style={{backgroundImage:`url(${store})`}}>
-      <div>
-        <h1>Store</h1>
-        <p>Soon , you will be able to shop at our store here online.</p>
-        <div class="date">16 Sep 2020</div>
-        <div class="tags">
-          <div class="tag">Coming Soon...</div>
-        </div>
+      <div className="links-card">
+         
+            <div className="links-icon"><i className="material-icons fab fa-youtube"></i></div>
+            <p className="title">YouTube</p>
+            <p className="text">
+            <a className="material-icons" href="/#">
+exit_to_app
+</a>
+<br/>
+            Check out all our music and videos.</p>
+         
       </div>
-    </a>
-  </div>
-</section>
-</div>
+
+
+
+      
+     <Contact />
+   
+
+   
+   </div>
+</Container>
+
 
     );
   }
@@ -62,14 +70,14 @@ export default Links;
 
 
 
-  // <div class="Links-card-grid-space">
-  //   <a class="Links-card" href="/#" style={{backgroundImage:`url(${booking})`}}>
+  // <div className="Links-card-grid-space">
+  //   <a className="Links-card" href="/#" style={{backgroundImage:`url(${booking})`}}>
   //     <div>
   //       <h1>Booking</h1>
   //       <p>Book us to play live at your event.</p>
-  //       <div class="date">Mystic Warriors</div>
-  //       <div class="tags">
-  //         <div class="tag">Book Now!</div>
+  //       <div className="date">Mystic Warriors</div>
+  //       <div className="tags">
+  //         <div className="tag">Book Now!</div>
   //       </div>
   //     </div>
   //   </a>

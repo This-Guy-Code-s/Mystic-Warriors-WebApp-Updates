@@ -72,16 +72,16 @@ componentDidMount(){
   </div>
 </div>
 
-<div class="glow"></div>
-<div class="particles">
+<div className="glow"></div>
+<div className="particles">
 
-    <div class="rotate">
+    <div className="rotate">
 
-        <div class="angle">
-            <div class="size">
-                <div class="position">
-                    <div class="pulse">
-                        <div class="particle">
+        <div className="angle">
+            <div className="size">
+                <div className="position">
+                    <div className="pulse">
+                        <div className="particle">
                         </div>
                     </div>
                 </div>
@@ -89,11 +89,11 @@ componentDidMount(){
         </div>
 
 
-        <div class="angle">
-            <div class="size">
-                <div class="position">
-                    <div class="pulse">
-                        <div class="particle">
+        <div className="angle">
+            <div className="size">
+                <div className="position">
+                    <div className="pulse">
+                        <div className="particle">
 
                         </div>
                     </div>
@@ -101,11 +101,11 @@ componentDidMount(){
             </div>
         </div>
 
-        <div class="angle">
-            <div class="size">
-                <div class="position">
-                    <div class="pulse">
-                        <div class="particle">
+        <div className="angle">
+            <div className="size">
+                <div className="position">
+                    <div className="pulse">
+                        <div className="particle">
 
                         </div>
                     </div>

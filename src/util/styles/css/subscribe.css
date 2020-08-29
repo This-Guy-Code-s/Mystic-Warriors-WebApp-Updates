@@ -1,0 +1,118 @@
+ @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+
+ .subs-card {
+     display: flex !important;
+     justify-self: center !important;
+     border-radius: 0px !important;
+     background-color: rgba(0,0,0,1);
+     width: calc(350px + 10 * ((100vw - 320px) / 680));
+ }
+
+ .subs-small {
+     font-size: 15px !important;
+     display: flex;
+     justify-content: center !important
+ }
+
+ .subs-cursor-pointer {
+     cursor: pointer
+ }
+
+
+
+
+ .subs-modal , .inp{
+     background: rgba(0,0,0,1);
+     color: azure;
+     -webkit-text-fill-color:azure;
+ }
+
+ .inp:focus{
+     background: rgba(0,0,0,1);
+     color: azure;
+     -webkit-text-fill-color:azure;
+ }
+
+
+
+.subs-btns{
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     /*width:100%;*/
+
+}
+
+
+ .subs-close-button:hover {
+     -moz-box-shadow: none !important;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+     outline-width: 0;
+     text-shadow:0 0 20px azure;
+ }
+.subs-close-button {
+     font-size: calc(12px + ((100vw - 360px) / (1600 - 320))) !important;
+     color: #fff;
+     -webkit-text-fill-color:#fff;
+     font-weight:bold;
+     padding:5px 10px;
+     cursor:pointer;
+     transition:1s ease-in-out;
+ }
+
+ .subs-button:hover {
+     -moz-box-shadow: none !important;
+     -webkit-box-shadow: none !important;
+     box-shadow: none !important;
+     outline-width: 0;
+ }
+
+
+ .subs-button {
+     font-size: calc(12px + ((100vw - 360px) / (1600 - 320))) !important;
+     border:double azure;
+     background:#000;
+     padding:5px 10px;
+     cursor:pointer;
+ }
+
+ .btn-icon {
+     border-radius: 0;
+     letter-spacing: 1px;
+     background-color:rgba(0,0,0,1) !important;
+     color: azure;
+     -webkit-text-fill-color:azure;
+ }
+
+ .btn-icon:hover {
+     color: azure;
+     -webkit-text-fill-color:azure;
+ }
+
+ #modal-buttton {
+     border: 1px solid azure
+ }
+
+ .fb {
+     position: relative;
+     top: 1px !important
+ }
+
+ .subs-modal-content {
+     background:  rgba(0,0,0,1) !important
+ }
+
+ @media (max-width: 387px) {
+     .subs-card {
+         width: unset
+     }
+
+     .subs-card-body {
+         padding-left: 0;
+         padding-right: 0
+     }
+ }

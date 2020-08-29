@@ -20,8 +20,8 @@ constructor(props){
     <div style={{marginBottom:'50px'}}>
 
 	<div id="wrapper">
-		<h6 class="glitch" data-text="ALWAYS IMITATED NEVER DUPLICATED">ALWAYS IMITATED</h6>
-		<span class="sub"></span>
+		<h6 className="glitch" data-text="ALWAYS IMITATED NEVER DUPLICATED">ALWAYS IMITATED</h6>
+		<span className="sub"></span>
 	</div>
 	</div>
  			 <Artist />
