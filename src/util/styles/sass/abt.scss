@@ -1,0 +1,132 @@
+$transition-time: .8s;
+
+@mixin transition-one(){
+	transition: $transition-time/2 ease;
+};
+
+@mixin transition-two(){
+	transition: $transition-time ease;
+};
+
+
+
+
+
+.box {
+	margin: 1em auto;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 2em;
+	overflow: hidden;
+	position: relative;
+	color: #333;
+	line-height: 1.6;
+	font-size: 1.2em;
+	z-index: 2;
+	font-weight:bolder;
+	*:first-child { margin-top: 0; }
+	*:last-child { margin-bottom: 0; }
+}
+
+
+
+
+
+// ------------------------------------------------
+// BUBBLE HOVER EFFECT CODE
+// ------------------------------------------------
+
+.bubble-aprox {
+	width: 3em;
+	height: 3em;
+	top: 0;
+	left: 0;
+	position: absolute;
+	border-radius: 0 0% 100% 0;
+	
+	&:hover + .bubble,
+	&:hover + .bubble:before {
+		padding: .2em;
+		border-radius: 0 0 90% 0;
+	}
+}
+
+.bubble {
+	position: absolute;
+	color: #fff;
+	height: 2.5em;
+	width: 2.5em;
+	transform-style: preserve-3d;
+	border-radius: 0 0% 100% 0;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	@include transition-one();
+	
+	&:before {
+		content: '';
+		height: 2.5em;
+		width: 2.5em;
+		@include transition-two();
+		border-radius: 0 0% 100% 0;
+		background: #7CB342;
+		top: 0;
+		left: 0;
+		position: absolute;
+		z-index: 1;
+	}
+	
+	&:hover {
+		width: 100%;
+		height: 100%;
+		
+		&:before {
+			border-radius: 0;
+			width: 150%;
+			height: 150%;
+			@include transition-two();
+		}
+		
+		.bubble__icon {
+			top: -50%;
+			left: -50%;
+			@include transition-two();
+		}
+		
+		.bubble__content {
+			@include transition-two();
+			top: 50%;
+			left: 0;
+			z-index: 4;
+
+		}
+	}
+}
+
+.bubble__icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	@include transition-two();
+	padding: .6em .3em;
+	line-height: 1;
+	font-size: 1.2em;
+}
+
+.bubble__content {
+	position: absolute;
+	top: -200%;
+	transform: translateY(-50%);
+	@include transition-one();
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	left: -200%;
+	padding:1.2em 0em;
+	font-weight:bolder;
+		small{
+	font-weight:bolder;
+					
+				}
+}

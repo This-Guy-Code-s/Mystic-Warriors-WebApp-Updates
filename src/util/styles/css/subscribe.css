@@ -103,7 +103,8 @@
  }
 
  .subs-modal-content {
-     background:  rgba(0,0,0,1) !important
+     background:  rgba(0,0,0,1) !important;
+     
  }
 
  @media (max-width: 387px) {

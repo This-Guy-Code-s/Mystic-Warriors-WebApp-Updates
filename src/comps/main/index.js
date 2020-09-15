@@ -2,9 +2,9 @@ import React from 'react';
 import '../../util/styles/sass/main.scss';
 import {Container} from 'reactstrap'
 import Artist from './Artist'
-import Center from './Center'
+import PictureGallery from './PictureGallery'
 import Links from './Links'
-
+import About from './About'
 
 class Main extends React.Component {
 constructor(props){
@@ -25,7 +25,8 @@ constructor(props){
 	</div>
 	</div>
  			 <Artist />
- 			 <Center />
+       <About />
+ 			 <PictureGallery />
  			 <Links />
     </Container>
     );

@@ -1,9 +1,9 @@
 import React from 'react';
-import {Modal } from 'reactstrap';
+import {Modal} from 'reactstrap';
 import '../../util/styles/css/subscribe.css';
 import img from '../../util/img/1.jpg';
-
-
+import {toggleHeaderBasedOnModals} from '../../redux/actions'
+import {connect} from 'react-redux'
 
 class Subscribe extends React.Component {
 constructor(props){
@@ -13,19 +13,31 @@ constructor(props){
   }
 
   this.toggle=this.toggle.bind(this)
-}
+} 
 
   toggle(){
-    return this.setState({
+     this.setState({//modal for the form its self
       modal:!this.state.modal
     })
+     //toggle nav bar to hide while forms are out
+     return this.props.toggleHeaderBasedOnModals(this.props.modalIsOut)
   }
+
+
+
+
+
+componentDidUpdate(){
+  console.log(this.props.modalIsOut)
+}
+
+
 
   render(){
   return (
    <div className='container'>    
     <div className='card__button' onClick={this.toggle} style={{cursor:'pointer'}}>{this.props.buttonLabel}</div>
-    <Modal toggle={this.toggle} className="subs-modal" isOpen={this.state.modal} id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <Modal toggle={this.toggle} className="subs-modal" isOpen={this.state.modal} id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-content subs-modal-content">
                 <div className="modal-body p-0 row">
                     <div className="col-12 col-lg-5 ad p-0"> <img src={img} width="100%" height="100%" alt='mystic warriors'/> </div>
@@ -40,7 +52,7 @@ constructor(props){
                         <input type="email" className="form-control inp" placeholder="email@example.com"/> 
                         </div>
                          <div className='subs-btns'><small className="text-muted subs-small"><button type="button" className=" subs-button">Subscribe Now!</button></small>
-                         <small className="text-muted subs-small"  onClick={this.toggle}><i className="fas fa-eye-slash subs-close-button" ></i></small></div>
+                         <small className="text-muted subs-small hide-btn"  onClick={this.toggle}>Hide<i className="fas fa-eye-slash subs-close-button" ></i></small></div>
                     </div>
                 </div>
             </div>
@@ -50,4 +62,15 @@ constructor(props){
   }
 }
 
-export default Subscribe;
+
+
+const mapStateToProps = state =>{
+  return{
+    modalIsOut:state.modalIsOut
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  {toggleHeaderBasedOnModals}
+  )(Subscribe);

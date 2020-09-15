@@ -1,0 +1,83 @@
+.footer-linx{
+  position:fixed;
+    width:100%;
+    height:auto;
+  top:0px;
+  left:0;
+  -webkit-text-fill-color:azure;
+  color:azure;
+  display: flex;
+flex-direction:column;
+  justify-content:flex-end;
+    align-items:center;
+  font-size:1rem;
+  font-weight:bolder;
+  
+  z-index: 1111;
+  transition:1s ease-in-out;
+  background:rgba(0,0,0,.4);
+  background-color:rgba(0,0,0,.4);
+
+  .nav-bar{
+    width:100%;
+    justify-content:space-between;
+    padding:0px 5px;
+
+    a{
+      -webkit-text-fill-color:azure;
+  color:azure;
+  font-family:oblique;
+  font-weight:bolder;
+    }
+
+  }
+
+    .ico{
+  font-weight:bolder;
+       -webkit-text-fill-color:azure;
+  color:azure;
+    }
+}
+
+
+
+.langoBox div{
+  flex:1;
+  border:none;
+  -webkit-text-fill-color:azure;
+  color:azure;
+  font-weight:bolder;
+  background-color:rgba(0,0,0,0);
+  background:rgba(0,0,0,0);
+  z-index: 1111;
+}
+.language-toggle-btn{
+  margin-top:20px;
+  display:flex;
+ background-color:rgba(0,0,0,0);
+  background:rgba(0,0,0,0);
+  border:none;
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+}
+
+    @media(max-width:900px) and (max-height:500px) and (min-width:551px){
+ 
+ 
+
+
+ }
+
+
+
+  @media(max-width:1380px) and (max-height:1380px) and (min-width:700px){
+
+
+ }
+
+
+

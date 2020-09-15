@@ -21,7 +21,7 @@ showContent(){
   render(){
   return (
     <Container>
-  
+   
    
    <div className="links-content">
       <div className="links-card">
@@ -59,6 +59,8 @@ exit_to_app
 
    
    </div>
+   
+
 </Container>
 
 

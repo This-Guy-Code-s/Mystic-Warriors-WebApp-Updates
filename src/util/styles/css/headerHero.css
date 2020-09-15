@@ -8,7 +8,8 @@
   border-radius: 50%;
   -webkit-animation: glow 15s linear 0s infinite forwards;
   background: url('https://t0.rbxcdn.com/182160a5d7d68c6d4be14a6d9f9e5598');
-  background-size: contain;
+  background-size:cover;
+  background-position:center;
 }
 
 .particles {

@@ -3,19 +3,24 @@
 import React from 'react';
 import {Modal ,FormGroup,Form} from 'reactstrap';
 import '../../util/styles/css/contact.css'
+import {toggleHeaderBasedOnModals} from '../../redux/actions'
+import {connect} from 'react-redux'
+
 
 class Contact extends React.Component{
   constructor(props){
     super(props)
-    this.state={
+    this.state={//modal for the form its self
       modal:false
     }
     this.toggle=this.toggle.bind(this)
   }
-
+ 
 
   toggle(){
-    return this.setState({modal:!this.state.modal})
+     this.setState({modal:!this.state.modal})
+     //toggle nav bar it hide or not when forms are out
+     return this.props.toggleHeaderBasedOnModals(this.props.modalIsOut)
   }
 
 render(){
@@ -42,7 +47,7 @@ Contact The Manager Now directly via email.</p>
 <a className="fa fa-phone contact-span" href='tel:+1-999-999-9999'> 999-999-9999</a>
     <a className="fa fa-envelope-o contact-span" href='mailto:thisguycodez@gmail.com'>contact@company.com</a> 
   </div>
-  <small className="text-muted subs-small xOut"  onClick={this.toggle}><i className="fas fa-eye-slash subs-close-button" ></i></small>
+  <small className="text-muted subs-small xOut"  onClick={this.toggle}>Hide<i className="fas fa-eye-slash subs-close-button" ></i></small>
   </FormGroup>
   <FormGroup>
   <p type="Name:" className='contact-p'><input placeholder="type here.." className="form-control contact-input" required/></p>
@@ -60,4 +65,18 @@ Contact The Manager Now directly via email.</p>
   }
 }
 
-export default Contact;
+
+
+
+const mapStateToProps = state =>{
+  return{
+
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  {toggleHeaderBasedOnModals}
+  )(Contact);
+
+
