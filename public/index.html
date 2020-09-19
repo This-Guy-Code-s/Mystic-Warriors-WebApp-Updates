@@ -46,13 +46,18 @@ const section1 = document.querySelector('.footer-linx')
 
 window.addEventListener('scroll', () => {
     let y = 1 + (window.scrollY || window.pageYOffset) / 150
-  y = y < 1 ? 1 : y // ensure y is always >= 1 (due to Safari's elastic scroll)
+  y = y < 1 ? 1 : y 
+
   const [r, g, b] = [red/y, green/y, blue/y].map(Math.round)
-      if(window.scrollY>200){
+      if(window.scrollY>30){
        
   section1.style.backgroundColor = `rgb(0,0,0)`
+  section1.style.borderBottom = `double 1px rgba(250,250,250,1)`
+  section1.style.boxShadow = `0 0 10px #000`
 }else{
-  section1.style.backgroundColor = `rgba(0,0,0,.4)`
+  section1.style.backgroundColor = `rgba(0,0,0,0)`
+  section1.style.borderBottom = `solid rgba(250,250,250,.01)`
+  section1.style.boxShadow = `0 0 0px #000`
 
 }
 

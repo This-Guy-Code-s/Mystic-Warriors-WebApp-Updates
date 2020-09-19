@@ -2,7 +2,11 @@
 
 
 
-
+.subs-modal{
+     border:double azure;
+     padding:1%;
+     overflow:hidden;
+}
  .subs-card {
      display: flex !important;
      justify-self: center !important;
@@ -21,13 +25,40 @@
      cursor: pointer
  }
 
+.sub-img-block{
+     display:flex;
+     justify-content:center;
+     align-items:flex-start;
+     overflow:hidden;
+}
+
+.sub-img-block img{
+     flex:1;
+     max-width:95%;
+     min-height:200px;
+     max-height:350px;
+}
 
 
 
+@media screen and (max-width:500px){
+     .subs-modal{
+     border:none;
+}
+}
+@media screen and (max-width:900px) and (min-width:500px) and (max-height:500px){
+
+.sub-img-block img{
+     min-height:200px;
+     max-height:250px;
+}
+  
+}
  .subs-modal , .inp{
      background: rgba(0,0,0,1);
      color: azure;
      -webkit-text-fill-color:azure;
+
  }
 
  .inp:focus{
@@ -104,7 +135,8 @@
 
  .subs-modal-content {
      background:  rgba(0,0,0,1) !important;
-     
+
+
  }
 
  @media (max-width: 387px) {
