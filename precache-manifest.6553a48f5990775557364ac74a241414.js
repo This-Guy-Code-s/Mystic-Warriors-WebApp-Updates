@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc714a9cfd1a9944e896ccf5a896d32b",
+    "revision": "da86e1fb5f2fda04dd93b431ebb2f6ec",
     "url": "/Mystic-Warriors-WebApp-Updates/index.html"
   },
   {
-    "revision": "a477585210d0fe003cdf",
+    "revision": "ea73f253497e273bb487",
     "url": "/Mystic-Warriors-WebApp-Updates/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "a7017302c2d338266157",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/css/main.cbc56224.chunk.css"
+    "revision": "a070bf3efbb3ae0efc54",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/css/main.18a57661.chunk.css"
   },
   {
-    "revision": "a477585210d0fe003cdf",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.dafc682c.chunk.js"
+    "revision": "ea73f253497e273bb487",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.8e242a5f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.dafc682c.chunk.js.LICENSE.txt"
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.8e242a5f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a7017302c2d338266157",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/main.6bf1a938.chunk.js"
+    "revision": "a070bf3efbb3ae0efc54",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/main.bb5633eb.chunk.js"
   },
   {
     "revision": "2efb430389bd9b32db30",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e35ef1724fe01e25bcd37b698ad1b04d",
     "url": "/Mystic-Warriors-WebApp-Updates/static/media/15.e35ef172.jpg"
-  },
-  {
-    "revision": "7884ee17fc7997053e80069ecd9f9706",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/16.7884ee17.jpg"
   },
   {
     "revision": "fbfff5d7da2df31e655e8375c2cab57b",
@@ -88,51 +84,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mystic-Warriors-WebApp-Updates/static/media/Booking.9d442603.jpg"
   },
   {
-    "revision": "1408b6663316670b76444ecc6c8bd2b5",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/a.1408b666.png"
-  },
-  {
-    "revision": "50aed5fa00376ee8e7472466be538449",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/b.50aed5fa.png"
-  },
-  {
-    "revision": "55188a25966732e1ce06d559e39b8926",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/c.55188a25.png"
-  },
-  {
-    "revision": "982da0a7ca47846e47a45c1fb7728775",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/d.982da0a7.png"
-  },
-  {
-    "revision": "a55a57eeb21173a41a944bd39d9d33e1",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/e.a55a57ee.png"
-  },
-  {
-    "revision": "bb8f848fe2cf1fbaf892eeadb3143f6d",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/f.bb8f848f.png"
-  },
-  {
-    "revision": "82c2a58a15ddf73b41999b0f005bd47a",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/g.82c2a58a.png"
-  },
-  {
-    "revision": "fba3f32e2ce8928f2e7027840b35af04",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/h.fba3f32e.png"
-  },
-  {
-    "revision": "1aa0dd32b9e11c7dc201d9742d8c3962",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/i.1aa0dd32.png"
-  },
-  {
     "revision": "b84e341bcb7816714864341a6cf63b84",
     "url": "/Mystic-Warriors-WebApp-Updates/static/media/marco.b84e341b.jpg"
   },
   {
-    "revision": "f0df17202a81fe18f92e3823c37a65ce",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/member1.f0df1720.jpg"
-  },
-  {
-    "revision": "53bca78d1e110b7949567daed701a9bb",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/media/member2.53bca78d.jpg"
+    "revision": "e19c3bd3147809df72249a08a4393128",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/media/member1.e19c3bd3.jpg"
   }
 ]);
