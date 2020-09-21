@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da86e1fb5f2fda04dd93b431ebb2f6ec",
+    "revision": "f279f1ecf11db18c996334d9b87d0412",
     "url": "/Mystic-Warriors-WebApp-Updates/index.html"
   },
   {
-    "revision": "ea73f253497e273bb487",
+    "revision": "fefd8e92941b1ffbd531",
     "url": "/Mystic-Warriors-WebApp-Updates/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "a070bf3efbb3ae0efc54",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/css/main.18a57661.chunk.css"
+    "revision": "11f918754581f5496442",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/css/main.e3be0090.chunk.css"
   },
   {
-    "revision": "ea73f253497e273bb487",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.8e242a5f.chunk.js"
+    "revision": "fefd8e92941b1ffbd531",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.60c8af00.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.8e242a5f.chunk.js.LICENSE.txt"
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.60c8af00.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a070bf3efbb3ae0efc54",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/main.bb5633eb.chunk.js"
+    "revision": "11f918754581f5496442",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/main.2821eb0b.chunk.js"
   },
   {
     "revision": "2efb430389bd9b32db30",

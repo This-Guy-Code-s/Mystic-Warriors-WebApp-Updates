@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Mystic-Warriors-WebApp-Updates/static/css/main.18a57661.chunk.css",
-    "main.js": "/Mystic-Warriors-WebApp-Updates/static/js/main.bb5633eb.chunk.js",
-    "main.js.map": "/Mystic-Warriors-WebApp-Updates/static/js/main.bb5633eb.chunk.js.map",
+    "main.css": "/Mystic-Warriors-WebApp-Updates/static/css/main.e3be0090.chunk.css",
+    "main.js": "/Mystic-Warriors-WebApp-Updates/static/js/main.2821eb0b.chunk.js",
+    "main.js.map": "/Mystic-Warriors-WebApp-Updates/static/js/main.2821eb0b.chunk.js.map",
     "runtime-main.js": "/Mystic-Warriors-WebApp-Updates/static/js/runtime-main.38aa5e0c.js",
     "runtime-main.js.map": "/Mystic-Warriors-WebApp-Updates/static/js/runtime-main.38aa5e0c.js.map",
     "static/css/2.11829350.chunk.css": "/Mystic-Warriors-WebApp-Updates/static/css/2.11829350.chunk.css",
-    "static/js/2.8e242a5f.chunk.js": "/Mystic-Warriors-WebApp-Updates/static/js/2.8e242a5f.chunk.js",
-    "static/js/2.8e242a5f.chunk.js.map": "/Mystic-Warriors-WebApp-Updates/static/js/2.8e242a5f.chunk.js.map",
+    "static/js/2.60c8af00.chunk.js": "/Mystic-Warriors-WebApp-Updates/static/js/2.60c8af00.chunk.js",
+    "static/js/2.60c8af00.chunk.js.map": "/Mystic-Warriors-WebApp-Updates/static/js/2.60c8af00.chunk.js.map",
     "index.html": "/Mystic-Warriors-WebApp-Updates/index.html",
-    "precache-manifest.6553a48f5990775557364ac74a241414.js": "/Mystic-Warriors-WebApp-Updates/precache-manifest.6553a48f5990775557364ac74a241414.js",
+    "precache-manifest.d2bde62527908d14bfc9f28b18560c7f.js": "/Mystic-Warriors-WebApp-Updates/precache-manifest.d2bde62527908d14bfc9f28b18560c7f.js",
     "service-worker.js": "/Mystic-Warriors-WebApp-Updates/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Mystic-Warriors-WebApp-Updates/static/css/2.11829350.chunk.css.map",
-    "static/css/main.18a57661.chunk.css.map": "/Mystic-Warriors-WebApp-Updates/static/css/main.18a57661.chunk.css.map",
-    "static/js/2.8e242a5f.chunk.js.LICENSE.txt": "/Mystic-Warriors-WebApp-Updates/static/js/2.8e242a5f.chunk.js.LICENSE.txt",
+    "static/css/main.e3be0090.chunk.css.map": "/Mystic-Warriors-WebApp-Updates/static/css/main.e3be0090.chunk.css.map",
+    "static/js/2.60c8af00.chunk.js.LICENSE.txt": "/Mystic-Warriors-WebApp-Updates/static/js/2.60c8af00.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/Mystic-Warriors-WebApp-Updates/static/media/1.befe6b09.jpg",
     "static/media/12.jpg": "/Mystic-Warriors-WebApp-Updates/static/media/12.b0e68ef8.jpg",
     "static/media/14.jpg": "/Mystic-Warriors-WebApp-Updates/static/media/14.d42fcc67.jpg",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.38aa5e0c.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.8e242a5f.chunk.js",
-    "static/css/main.18a57661.chunk.css",
-    "static/js/main.bb5633eb.chunk.js"
+    "static/js/2.60c8af00.chunk.js",
+    "static/css/main.e3be0090.chunk.css",
+    "static/js/main.2821eb0b.chunk.js"
   ]
 }
