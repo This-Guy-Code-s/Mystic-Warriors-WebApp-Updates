@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Mystic-Warriors-WebApp-Updates/precache-manifest.9b223407ddeefc74776182c4aa034067.js"
+  "/Mystic-Warriors-WebApp-Updates/precache-manifest.22efe30f4a2efddcc173c70837eafd99.js"
 );
 
 self.addEventListener('message', (event) => {

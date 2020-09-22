@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33b4fb6663756fba4893e48ae84c1251",
+    "revision": "a56c51b6a91ea732b53643680d58db67",
     "url": "/Mystic-Warriors-WebApp-Updates/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mystic-Warriors-WebApp-Updates/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "ee3e9aae480e5dd77878",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/css/main.76db4829.chunk.css"
+    "revision": "76375ce6d1c133fcc838",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/css/main.69ea9cb1.chunk.css"
   },
   {
     "revision": "57354ce44758b5b2b127",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.b593a287.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ee3e9aae480e5dd77878",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/main.9ff40b40.chunk.js"
+    "revision": "76375ce6d1c133fcc838",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/main.09db84e0.chunk.js"
   },
   {
     "revision": "2efb430389bd9b32db30",
