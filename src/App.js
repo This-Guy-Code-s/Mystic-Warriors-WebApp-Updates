@@ -2,9 +2,9 @@ import React from 'react';
 import './util/styles/css/App.css';
 import Main from './comps/main/'
 import Header from './comps/header/Header'
-import Nav from './comps/nav/'
+import Nav from './comps/nav/nav.js'
 import {Route,Switch} from 'react-router'
-import VideoGallery from './comps/main/VideoGallery'
+import VideoGallery from './comps/main/vidGallery/VideoGallery'
 import {connect} from 'react-redux'
 
 class App extends React.Component {
@@ -46,6 +46,9 @@ constructor(props){
           <VideoGallery />
           </div>
           )
+      }}/>
+      <Route render={()=>{
+        return <Main/>
       }}/>
       </Switch>
       

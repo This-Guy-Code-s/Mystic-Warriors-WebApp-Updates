@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../util/styles/sass/main.scss';
 import {Container} from 'reactstrap'
-import Artist from './Artist'
-import PictureGallery from './PictureGallery'
-import Links from './Links'
-import About from './About'
+import Artist from './artist/Artist'
+import PictureGallery from './picGallery/PictureGallery'
+import Links from './links/Links'
+// import About from './About'
 
 class Main extends React.Component {
 constructor(props){
@@ -25,7 +25,6 @@ constructor(props){
 	</div>
 	</div>
  			 <Artist />
-       <About />
  			 <PictureGallery />
  			 <Links />
     </Container>

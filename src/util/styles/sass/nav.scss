@@ -12,22 +12,39 @@ flex-direction:column;
     align-items:center;
   font-size:1rem;
   font-weight:bolder;
-  
-  z-index: 1111;
+  z-index: 24;
   transition:1s ease-in-out;
-  background:rgba(0,0,0,.4);
-  background-color:rgba(0,0,0,.4);
+  background:rgba(0,0,0,0);
+  background-color:rgba(0,0,0,0);
 
   .nav-bar{
     width:100%;
     justify-content:space-between;
     padding:0px 5px;
 
+    span{
+      -webkit-text-fill-color:crimson;
+  color:crimson;
+      text-shadow:0 0 3px blue;
+      font-size:1rem;
+      animation:muzik 1s linear infinite;
+    }
+
+    @keyframes muzik{
+      from{
+        transform:rotateY(0deg);
+      }
+      to{
+        transform:rotateY(360deg);
+      }
+    }
     a{
+      text-shadow:0 0 3px #000;
+      -webkit-text-stroke:.1px #000;
       -webkit-text-fill-color:azure;
-  color:azure;
-  font-family:oblique;
-  font-weight:bolder;
+      color:azure;
+      font-family:oblique;
+      font-weight:bolder;
     }
 
   }
