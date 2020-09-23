@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Mystic-Warriors-WebApp-Updates/static/css/main.98121ed0.chunk.css",
+    "main.css": "/Mystic-Warriors-WebApp-Updates/static/css/main.571495bb.chunk.css",
     "main.js": "/Mystic-Warriors-WebApp-Updates/static/js/main.04db081e.chunk.js",
     "main.js.map": "/Mystic-Warriors-WebApp-Updates/static/js/main.04db081e.chunk.js.map",
     "runtime-main.js": "/Mystic-Warriors-WebApp-Updates/static/js/runtime-main.38aa5e0c.js",
@@ -9,10 +9,10 @@
     "static/js/2.bebdcaa3.chunk.js": "/Mystic-Warriors-WebApp-Updates/static/js/2.bebdcaa3.chunk.js",
     "static/js/2.bebdcaa3.chunk.js.map": "/Mystic-Warriors-WebApp-Updates/static/js/2.bebdcaa3.chunk.js.map",
     "index.html": "/Mystic-Warriors-WebApp-Updates/index.html",
-    "precache-manifest.fdc283311004ce1a83c0746f06ba17c7.js": "/Mystic-Warriors-WebApp-Updates/precache-manifest.fdc283311004ce1a83c0746f06ba17c7.js",
+    "precache-manifest.f3ae2e1e7bf5f93fa218951abcd03bbd.js": "/Mystic-Warriors-WebApp-Updates/precache-manifest.f3ae2e1e7bf5f93fa218951abcd03bbd.js",
     "service-worker.js": "/Mystic-Warriors-WebApp-Updates/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/Mystic-Warriors-WebApp-Updates/static/css/2.11829350.chunk.css.map",
-    "static/css/main.98121ed0.chunk.css.map": "/Mystic-Warriors-WebApp-Updates/static/css/main.98121ed0.chunk.css.map",
+    "static/css/main.571495bb.chunk.css.map": "/Mystic-Warriors-WebApp-Updates/static/css/main.571495bb.chunk.css.map",
     "static/js/2.bebdcaa3.chunk.js.LICENSE.txt": "/Mystic-Warriors-WebApp-Updates/static/js/2.bebdcaa3.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/Mystic-Warriors-WebApp-Updates/static/media/1.befe6b09.jpg",
     "static/media/12.jpg": "/Mystic-Warriors-WebApp-Updates/static/media/12.b0e68ef8.jpg",
@@ -45,7 +45,7 @@
     "static/js/runtime-main.38aa5e0c.js",
     "static/css/2.11829350.chunk.css",
     "static/js/2.bebdcaa3.chunk.js",
-    "static/css/main.98121ed0.chunk.css",
+    "static/css/main.571495bb.chunk.css",
     "static/js/main.04db081e.chunk.js"
   ]
 }
