@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a56c51b6a91ea732b53643680d58db67",
+    "revision": "954fecd11020184ea4b907357e8e0224",
     "url": "/Mystic-Warriors-WebApp-Updates/index.html"
   },
   {
-    "revision": "57354ce44758b5b2b127",
+    "revision": "d2ae9d5fe1a51b08c746",
     "url": "/Mystic-Warriors-WebApp-Updates/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "76375ce6d1c133fcc838",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/css/main.69ea9cb1.chunk.css"
+    "revision": "c7f90c1cc3acc2b8a66b",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/css/main.98121ed0.chunk.css"
   },
   {
-    "revision": "57354ce44758b5b2b127",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.b593a287.chunk.js"
+    "revision": "d2ae9d5fe1a51b08c746",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.bebdcaa3.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.b593a287.chunk.js.LICENSE.txt"
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/2.bebdcaa3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76375ce6d1c133fcc838",
-    "url": "/Mystic-Warriors-WebApp-Updates/static/js/main.09db84e0.chunk.js"
+    "revision": "c7f90c1cc3acc2b8a66b",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/js/main.04db081e.chunk.js"
   },
   {
     "revision": "2efb430389bd9b32db30",
@@ -126,5 +126,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e19c3bd3147809df72249a08a4393128",
     "url": "/Mystic-Warriors-WebApp-Updates/static/media/member1.e19c3bd3.jpg"
+  },
+  {
+    "revision": "8102aaa29fd4d83d54784534a7f79389",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/media/wp1.8102aaa2.jpg"
+  },
+  {
+    "revision": "fb4611fa33d71ee9cc78afc6aebc4373",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/media/wp2.fb4611fa.jpg"
+  },
+  {
+    "revision": "7794171273bb0da089db32f0ca322286",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/media/wp3.77941712.jpg"
+  },
+  {
+    "revision": "20a81ee7fc5dddb29f66ccb655b56d9d",
+    "url": "/Mystic-Warriors-WebApp-Updates/static/media/wp4.20a81ee7.jpg"
   }
 ]);
